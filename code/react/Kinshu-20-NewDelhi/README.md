@@ -1,3 +1,10 @@
+# Kinshu-20-NewDelhi
+
+- Author  : Kinshu Raj Gupta
+- Location: New Delhi, Delhi, India
+
+Hello Hacktoberfest in React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
