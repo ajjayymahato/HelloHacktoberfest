@@ -1,0 +1,70 @@
+h1 {
+  font-size: 74px;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffcc00;
+  border-radius: 5px;
+  cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+  transition: background-color 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+/* Add hover effect to change background color */
+h1:hover {
+  background-color: #ff9900;
+}
+
+/* Define a simple animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the <h1> element */
+h1 {
+  animation: fadeIn 1s ease-in-out; /* Apply the fadeIn animation */
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+    background-color: #d6bfff; /* Light green */
+  }
+  25% {
+    opacity: 0.7;
+    background-color: #f1bfff; /* Light green */
+  }
+  50% {
+    opacity: 0.3;
+    background-color: #f1bfff; /* Light green */
+  }
+  75% {
+    opacity: 0.7;
+    background-color: #ff77ed; /* Yellow-green */
+  }
+}
+
+.flicker-text {
+  font-size: 74px;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  background-color: #c1ffbf; /* Light green */
+  border-radius: 5px;
+  cursor: pointer;
+  animation: flicker 5s ease-in-out infinite; /* Apply the flicker animation */
+}
+
+.centered-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+
