@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Neon Text</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap">
+    <style>
+        body {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .neon-text {
+            font-size: 48px;
+            font-family: 'Orbitron', sans-serif; /* Custom font for a futuristic look */
+            color: #00aaff; /* Neon blue color */
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff, 0 0 40px #00aaff, 0 0 50px #00aaff, 0 0 60px #00aaff, 0 0 70px #00aaff;
+            opacity: 0; /* Start with opacity 0 for entry effect */
+            animation: neonEntry 1s ease-in-out forwards, neonGlow 1.5s ease-in-out infinite;
+            transition: text-shadow 0.3s, transform 0.3s;
+            transition: 1s;
+        }
+
+        .neon-text:hover {
+            text-shadow: 0 0 20px rgba(0, 170, 255, 0.8); /* Neon glow effect on hover */
+            transform: scale(1.1); /* Scale up by 10% on hover */
+            letter-spacing: 10px;
+            transition: 1.4s;
+        }
+
+        @keyframes neonEntry {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes neonGlow {
+            0%, 100% {
+                text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff, 0 0 40px #00aaff, 0 0 50px #00aaff, 0 0 60px #00aaff, 0 0 70px #00aaff;
+            }
+            50% {
+                text-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="neon-text">Hello World</div>
+</body>
+</html>
