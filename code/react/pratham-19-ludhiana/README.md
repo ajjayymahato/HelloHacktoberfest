@@ -1,3 +1,10 @@
+# Pratham-19-Ludhiana
+
+- Author  : Pratham Dhiman
+- Location: Ludhiana , Punjab
+
+Hello Hacktoberfest in React.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
