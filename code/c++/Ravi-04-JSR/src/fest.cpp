@@ -8,7 +8,7 @@ int main() {
     std::cout << " | | | | (_| \\__ \\ |_ / ____ \\| |\\  |_|_|" << std::endl;
     std::cout << " |_| |_|\\__,_|___/\\__/_/    \\_\\_| \\_(_|_)" << std::endl;
     std::cout << "                                       " << std::endl;
-    std::cout << "   Hacktober Fest 2023" << std::endl;
+    std::cout << "   Hacktober Fest 2023" << std::endl ;
 
     return 0;
 }
